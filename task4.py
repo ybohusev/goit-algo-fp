@@ -44,7 +44,6 @@ def draw_tree(tree_root):
 
 
 def build_heap_tree(heap: List[int]) -> Optional[Node]:
-    """Перетворює масив-купу у зв'язне бінарне дерево з вузлами Node."""
     if not heap:
         return None
 
